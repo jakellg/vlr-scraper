@@ -3,7 +3,7 @@ This is a program that Scrapes [VLR](https://www.vlr.gg/)
 
 All data is per player per map to give a level of granularity to be able to calculate deeper statistics than just averages.
 
-final_stats.csv is an example of what the data for all franchising events.
+final_stats.csv is an example of what the data for all franchising events looks like.
 
 # Getting Started
 
@@ -21,12 +21,12 @@ This will scan the last 15 Zellsis games, and produce a file "zellsis.csv":
 VLR_Stats_Scraper.py "https://www.vlr.gg/player/matches/729/zellsis" 15
 ```
 
-This will scan through all the matches at Champions 2024, and producea document  "valorant-champions-2024.csv":
+This will scan through all the matches at Champions 2024, and produces document  "valorant-champions-2024.csv":
 ```{python}
 VLR_Stats_Scraper.py "https://www.vlr.gg/event/matches/2097/valorant-champions-2024/?series_id=all"
 ```
 
-This program contains a list of all Franchised Valorant events, goes through all of them and cretes a file "final_stats.csv" (included in this repository):
+This program contains a list of all Franchised Valorant events, goes through all of them and creates a file "final_stats.csv" (included in this repository):
 ```{python}
 VLR_Scraper_Merger.py 
 ```
